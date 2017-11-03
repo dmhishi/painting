@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514990791840",
+    "firebase_url": "https://painting-38a7c.firebaseio.com",
+    "project_id": "painting-38a7c",
+    "storage_bucket": "painting-38a7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514990791840:android:bf3c119d8591ac94",
+        "android_client_info": {
+          "package_name": "com.bisonswap.painting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514990791840-2ov2vun4ceap5lm7u6c3dsf5hf1170i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bisonswap.painting",
+            "certificate_hash": "f1041b5d7564e1ac2c54e9b443f58178020005fc"
+          }
+        },
+        {
+          "client_id": "514990791840-b251281750vej4h3ugtv5tjp0ikclr4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5EWBwVFz25egPVYsH1CBZtW4X9CGm2xk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514990791840-b251281750vej4h3ugtv5tjp0ikclr4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
