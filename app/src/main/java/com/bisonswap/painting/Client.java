@@ -18,7 +18,7 @@ public class Client {
         this.markupPercentage = 0;
     }
 
-    public  Client(String firstName, String lastName, String address, double markupPercentage) {
+    public Client(String firstName, String lastName, String address, double markupPercentage) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
