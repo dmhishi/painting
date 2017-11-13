@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:background="#ffffff"
         android:orientation="vertical"
@@ -66,17 +66,19 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
             android:text="@string/btn_login"
+            android:textColor="@android:color/black"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_reset_password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:background="@null"
             android:text="@string/btn_forgot_password"
             android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
             android:textStyle="bold" />
 
         <Button
@@ -84,10 +86,12 @@
             style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent"
             android:text="Don't have an account? Sign Up."
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -95,10 +99,10 @@
         android:id="@+id/progressBar"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="center|bottom"
         android:visibility="gone"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="162dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
