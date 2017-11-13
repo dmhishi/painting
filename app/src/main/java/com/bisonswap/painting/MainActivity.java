@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_add_new_project) {
             startActivity(new Intent(MainActivity.this, AddProject.class));
         } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
         }
 
