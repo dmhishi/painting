@@ -5,11 +5,19 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Home" />
+            android:title="Saved Projects" />
         <item
             android:id="@+id/nav_add_new_project"
             android:icon="@drawable/ic_menu_camera"
             android:title="Add New Project" />
+        <item
+            android:id="@+id/nav_manage_components"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manage Components" />
+        <item
+            android:id="@+id/nav_add_component"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Add New Component" />
     </group>
 
     <item android:title="Account">

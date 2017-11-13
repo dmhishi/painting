@@ -34,7 +34,12 @@
             android:name=".SignUp"
             android:label="Sign in"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".ComponentActivity" />
+        <activity
+            android:name=".AddComponent"
+            android:theme="@style/AppTheme.PopupWindow"></activity>
+        <activity android:name=".ProjectActivity"></activity>
     </application>
 
 </manifest>

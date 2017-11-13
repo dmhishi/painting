@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -31,7 +32,12 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         if(FirebaseAuth.getInstance().getCurrentUser()==null) startActivity(new Intent(this, LoginActivity.class));
 
-
+        (findViewById(R.id.button2)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ComponentActivity.class));
+            }
+        });
 
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("app-data").child("name");
         ref.addValueEventListener(new ValueEventListener() {
@@ -118,6 +124,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_logout) {
             FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        } else if (id == R.id.nav_manage_components) {
+            FirebaseAuth.getInstance().signOut();
+            startActivity(new Intent(MainActivity.this, ComponentActivity.class));
+        } else if (id == R.id.nav_add_component) {
+            FirebaseAuth.getInstance().signOut();
+            startActivity(new Intent(MainActivity.this, AddComponent.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

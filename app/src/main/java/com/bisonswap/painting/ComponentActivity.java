@@ -3,12 +3,12 @@ package com.bisonswap.painting;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class AddProject extends AppCompatActivity {
+public class ComponentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_project);
-        setTitle("Create new Project");
+        setContentView(R.layout.activity_component);
+        setTitle("Manage Components");
     }
 }
