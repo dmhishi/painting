@@ -1,4 +1,5 @@
-import com.bisonswap.painting.Client;
+package com.bisonswap.painting;
+
 
 import java.util.ArrayList;
 
@@ -7,6 +8,7 @@ import java.util.ArrayList;
  */
 
 public class Project {
+    public String id;
     public String name;
     public Client client;
     public ArrayList<Room> rooms;
@@ -16,7 +18,8 @@ public class Project {
         this.rooms = new ArrayList<>();
     }
 
-    public Project(String name) {
+    public Project(String id, String name) {
+        this.id = id;
         this.name = name;
         this.rooms = new ArrayList<>();
     }

@@ -38,8 +38,9 @@
         <activity android:name=".ComponentActivity" />
         <activity
             android:name=".AddComponent"
-            android:theme="@style/AppTheme.PopupWindow"></activity>
-        <activity android:name=".ProjectActivity"></activity>
+            android:theme="@style/AppTheme.PopupWindow" />
+        <activity android:name=".ProjectActivity" />
+        <activity android:name=".RoomActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-import com.bisonswap.painting.Component;
+package com.bisonswap.painting;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,10 @@ import java.util.ArrayList;
  */
 
 public class Room {
+    public String id;
+    public String name;
     public ArrayList<Component> components;
+    //public Project parent;
 
     public  Room() {
         this.components = new ArrayList<>();

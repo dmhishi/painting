@@ -5,9 +5,11 @@ package com.bisonswap.painting;
  */
 
 public class Component {
+    String id;
     public String name;
     public double length;
     public double width;
+    //public Room parent;
 
     public Component() {
         this.name = "unnamed";
